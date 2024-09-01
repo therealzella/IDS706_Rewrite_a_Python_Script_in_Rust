@@ -1,5 +1,4 @@
 # IDS706-python-template
-# IDS706-python-template
 
 This is a template repository for the IDS706 course's 1st-week assignment.
 
