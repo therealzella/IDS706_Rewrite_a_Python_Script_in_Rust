@@ -2,6 +2,8 @@
 
 This is a template repository for the IDS706 course's 1st-week assignment.
 
+![CI](https://github.com/<your-username>/<your-repository>/actions/workflows/ci.yml/badge.svg)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
