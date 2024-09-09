@@ -18,7 +18,9 @@ def test_summary_statistics():
     assert summary_stats['calories']['mean'] > 0, "Calories mean should be greater than 0"
 
 def test_histogram_creation():
-    import os
+    # Get the absolute path of the histogram file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    histogram_path = os.path.join(current_dir, 'calories_histogram.png')
+    
     # Ensure that the histogram image file is created
-    assert os.path.exists('calories_histogram.png'), "Histogram image not created"
-
+    assert os.path.exists(histogram_path), "Histogram image not created at: " + histogram_path
