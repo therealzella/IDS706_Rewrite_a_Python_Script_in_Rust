@@ -1,22 +1,23 @@
-import unittest
-from main import factorial
+import pandas as pd
+import pytest
 
-class TestFactorialFunction(unittest.TestCase):
-    def test_factorial_of_zero(self):
-        self.assertEqual(factorial(0), 1)
+# Test function to check if the dataset loads correctly
+def test_load_dataset():
+    df = pd.read_csv('cereal.csv')
+    # Check if the dataset contains data
+    assert not df.empty, "Dataset is empty"
 
-    def test_factorial_of_one(self):
-        self.assertEqual(factorial(1), 1)
+# Test function for summary statistics
+def test_summary_statistics():
+    df = pd.read_csv('cereal.csv')
+    summary_stats = df.describe()
 
-    def test_factorial_of_positive_number(self):
-        self.assertEqual(factorial(5), 120)
+    # Check that the mean of the calories column is calculated
+    assert 'calories' in summary_stats.columns, "'calories' column missing in summary stats"
+    assert summary_stats['calories']['mean'] > 0, "Calories mean should be greater than 0"
 
-    def test_factorial_of_large_number(self):
-        self.assertEqual(factorial(10), 3628800)
+def test_histogram_creation():
+    import os
+    # Ensure that the histogram image file is created
+    assert os.path.exists('calories_histogram.png'), "Histogram image not created"
 
-    def test_factorial_of_negative_number(self):
-        with self.assertRaises(ValueError):
-            factorial(-1)
-
-if __name__ == "__main__":
-    unittest.main()
