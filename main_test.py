@@ -1,5 +1,6 @@
 import pandas as pd
 import pytest
+import os
 
 # Test function to check if the dataset loads correctly
 def test_load_dataset():
