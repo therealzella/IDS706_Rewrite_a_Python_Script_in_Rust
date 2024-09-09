@@ -18,7 +18,7 @@ df['calories'].hist(bins=10, figsize=(10, 8))
 plt.title('Distribution of Calories')
 plt.xlabel('Calories')
 plt.ylabel('Frequency')
-plt.savefig('calories_histogram.png')
+plt.savefig('calories_histogram.png')  
 
 print("Summary statistics and calories histogram have been generated.")
 
