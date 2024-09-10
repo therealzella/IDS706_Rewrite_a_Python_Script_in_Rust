@@ -1,6 +1,6 @@
-# IDS706-python-template
+# IDS706_Pandas_Descriptive_Statistics_Script
 
-This is a template repository for the IDS706 course's 1st-week assignment.
+This is assignment Pandas_Descriptive_Statistics_Script using python template with CI/CD running.
 
 ![CI](https://github.com/therealzella/IDS706-python-github-template/actions/workflows/ci.yml/badge.svg)
 
@@ -20,6 +20,9 @@ This repository is a Python project template designed for the IDS706 course. It 
 - A `Makefile` for automating common tasks like formatting, linting, and testing.
 - A `.gitignore` file to keep unnecessary files out of your repository.
 - A `requirements.txt` file to manage dependencies.
+- A `cereal.csv` file for the main.py to do the pandas analysis
+- A `summary_statistics.csv` file to store the metrics of the cereal.csv
+- A `calories_histogram.png` file to show the data visualization of the data from the cereal.csv
 
 ## Installation
 To set up this project locally, follow these steps:
