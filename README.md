@@ -19,17 +19,31 @@ This is assignment is for IDS706_Rewrite_a_Python_Script_in_Rust. The original p
 This chart shows the execution time for the data processing script written in Python and Rust.
 ![Performance Comparison Chart](performance_chart.png)
 
+More details on the running results for Python and Rust:
+
+- **Python**:
+![Python Performance Chart](Python_Running.png)
+
+- **Rust**:
+![Rust Performance Chart](Rust_Running.png)
+
+### Summary of Improvements
+
+- **Speed**: The Rust version demonstrates significant performance improvements over the Python script. The total execution time decreased from **13.148 seconds** in Python to **1.015 seconds** in Rust, indicating a **12x improvement** in processing speed.
+  
+- **Resource Utilization**: The Rust script also shows more efficient resource usage, with a lower user and system time, suggesting optimized CPU utilization for this data processing task.
+
 ## Installation
 To set up this project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/IDS706-python-template.git
+    git clone https://github.com/yourusername/IDS706-Rewrite_a_Python_Script_in_Rust.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd IDS706-python-template
+    cd IDS706-Rewrite_a_Python_Script_in_Rust
     ```
 
 3. Create a virtual environment (optional but recommended):
@@ -43,7 +57,10 @@ To set up this project locally, follow these steps:
     make install
     ```
 
-## Usage
-You can run the main script using:
-```sh
-python main.py
+## Usage for Rust Project
+Clone the repository and ensure you have Rust installed:
+```bash
+git clone 
+cd Rust_Project
+cargo build
+
