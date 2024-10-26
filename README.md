@@ -14,9 +14,10 @@ This is assignment is for IDS706_Rewrite_a_Python_Script_in_Rust. The original p
 - A `summary_statistics.csv` file to store the metrics of the cereal.csv
 - A `calories_histogram.png` file to show the data visualization of the data from the cereal.csv
 - A `Rust_Project` directory for rewriting codes in Rust using the same dataset.
+- A `project_report` pdf file for detailed comparison between Python and Rust running the same dataset.
 
 ## Python vs Rust
-This chart shows the execution time for the data processing script written in Python and Rust.
+This chart shows the execution time for the data processing script written in Python and Rust. (More details please see the project_report.md in the file list above!!)
 ![Performance Comparison Chart](performance_chart.png)
 
 More details on the running results for Python and Rust:
