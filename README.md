@@ -17,7 +17,7 @@ This is assignment is for IDS706_Rewrite_a_Python_Script_in_Rust. The original p
 - A `project_report` pdf file for detailed comparison between Python and Rust running the same dataset.
 
 ## Python vs Rust
-This chart shows the execution time for the data processing script written in Python and Rust. (More details please see the project_report.md in the file list above!!)
+This chart shows the execution time for the data processing script written in Python and Rust. (More details please see the project_report.md: https://github.com/therealzella/IDS706_Rewrite_a_Python_Script_in_Rust/blob/main/project_report.md)
 ![Performance Comparison Chart](performance_chart.png)
 
 More details on the running results for Python and Rust:
