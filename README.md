@@ -1,20 +1,10 @@
-# IDS706_Pandas_Descriptive_Statistics_Script
+# IDS706_Rewrite_a_Python_Script_in_Rust
 
-This is assignment Pandas_Descriptive_Statistics_Script using python template with CI/CD running.
+This is assignment is for IDS706_Rewrite_a_Python_Script_in_Rust. The original python project is for the assignment IDS706_Pandas_Descriptive_Statistics_Script (https://github.com/therealzella/IDS706_Pandas_Descriptive_Statistics_Script.git)
 
 ![CI](https://github.com/therealzella/IDS706-python-github-template/actions/workflows/ci.yml/badge.svg)
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Makefile Commands](#makefile-commands)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Project Overview
-This repository is a Python project template designed for the IDS706 course. It includes:
 - A `main.py` file with the core functionality.
 - A `main_test.py` file with unit tests for the project.
 - A `Makefile` for automating common tasks like formatting, linting, and testing.
@@ -23,6 +13,11 @@ This repository is a Python project template designed for the IDS706 course. It 
 - A `cereal.csv` file for the main.py to do the pandas analysis
 - A `summary_statistics.csv` file to store the metrics of the cereal.csv
 - A `calories_histogram.png` file to show the data visualization of the data from the cereal.csv
+- A `Rust_Project` directory for rewriting codes in Rust using the same dataset.
+
+## Python vs Rust
+This chart shows the execution time for the data processing script written in Python and Rust.
+![Performance Comparison Chart](performance_chart.png)
 
 ## Installation
 To set up this project locally, follow these steps:
